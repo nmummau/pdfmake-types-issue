@@ -1,4 +1,8 @@
-# sample
+@types/pdfmake is not found correctly in my vue project. So I created this basic vue app to highlight my issue. See the `src/sample.ts` file where the issue is visible.
+
+Importing the declarations from node_modules is not being detected... unless you I add a Triple-Slash Directive.
+
+This small repo was created with the vue cli.
 
 ## Project setup
 ```
@@ -9,21 +13,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
